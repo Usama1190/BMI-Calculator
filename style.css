@@ -99,18 +99,3 @@ body {
     margin: auto;
     font-size: 14px;
 }
-
-/* .container h2 {
-    animation: UnderlineBorder 3s 0.03s infinite ease-in-out;
-} */
-
-@keyframes UnderlineBorder {
-    from {
-        border-bottom: none;
-    }
-
-    to {
-        /* width: 20%; */
-        border-bottom: 2px solid black;
-    }
-}
