@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+</head>
+<body>
+    <div class="container">
+        <h2>BMI Calculator</h2>
+        <p>Body Mass Index</p>
+
+        <div class="input-fields">
+            <label for="height">Height:
+                <input type="number" id="height" class="input" placeholder="height in centimeter" required><br>
+            </label>
+
+            <label for="weight">Weight:
+                <input type="number" id="weight" class="input" placeholder="weight in kilogram" required><br>
+            </label>
+
+            <button type="button" onclick="myFunction()" id="btn1">Calculate</button>
+
+            <p id="calculate" class="input">Showing result...</p>
+        </div>
+
+        <p class="p1"><strong>Note: </strong>A high BMI can indicate high body fatness.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
